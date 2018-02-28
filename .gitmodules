@@ -1,0 +1,3 @@
+[submodule "term1/projects/p1-backyard-flyer"]
+	path = term1/projects/p1-backyard-flyer
+	url = git@github.com:carlosgalvezp/FCND-P1-Backyard-Flyer.git
