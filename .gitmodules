@@ -1,3 +1,6 @@
 [submodule "term1/projects/p1-backyard-flyer"]
 	path = term1/projects/p1-backyard-flyer
 	url = git@github.com:carlosgalvezp/FCND-P1-Backyard-Flyer.git
+[submodule "term1/projects/p2-motion-planning"]
+	path = term1/projects/p2-motion-planning
+	url = git@github.com:carlosgalvezp/FCND-P2-Motion-Planning.git
