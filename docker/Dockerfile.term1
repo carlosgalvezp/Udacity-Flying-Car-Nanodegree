@@ -19,7 +19,10 @@ RUN wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh &
     rm Miniconda3-latest-Linux-x86_64.sh
 
 RUN git clone https://github.com/udacity/FCND-Term1-Starter-Kit.git && \
-    conda env create -f FCND-Term1-Starter-Kit/environment.yml && \
+    cd FCND-Term1-Starter-Kit && \
+    git checkout 8150044c297385b6acac5967f26f7a947d3ba966 && \
+    conda env create -f environment.yml && \
+    cd .. && \
     rm -rf FCND-Term1-Starter-Kit
 
 ENV PATH ${MINICONDA_PREFIX}/envs/fcnd/bin/:${PATH}
