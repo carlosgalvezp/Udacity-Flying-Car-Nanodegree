@@ -4,3 +4,9 @@
 [submodule "term1/projects/p2-motion-planning"]
 	path = term1/projects/p2-motion-planning
 	url = git@github.com:carlosgalvezp/FCND-P2-Motion-Planning.git
+[submodule "term1/projects/p3-controls-python"]
+	path = term1/projects/p3-controls-python
+	url = git@github.com:carlosgalvezp/FCND-P3-Controls-Python.git
+[submodule "term1/projects/p3-controls-cpp"]
+	path = term1/projects/p3-controls-cpp
+	url = git@github.com:carlosgalvezp/FCND-P3-Controls-Cpp.git
