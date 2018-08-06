@@ -13,3 +13,6 @@
 [submodule "term1/projects/p4-estimation"]
 	path = term1/projects/p4-estimation
 	url = git@github.com:carlosgalvezp/FCND-P4-Estimation-Cpp.git
+[submodule "term1/projects/p5-fixed-wing"]
+	path = term1/projects/p5-fixed-wing
+	url = git@github.com:carlosgalvezp/FCND-P5-Fixed-Wing.git
